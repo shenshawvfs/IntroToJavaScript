@@ -9,14 +9,16 @@
 
 import App from './App.js';
 
-// Wait for the DOM to finish loading (we don't want to reference things that don't exist)
-document.addEventListener('DOMContentLoaded', event => {
+(function Main(){
+    // Wait for the DOM to finish loading (we don't want to reference things that don't exist)
+    document.addEventListener('DOMContentLoaded', event => {
 
-    // Find out what we are running on
-    const MOBILE = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test( navigator.userAgent );
+        // Find out what we are running on
+        const MOBILE = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test( navigator.userAgent );
 
-    // Init the app and run it
-    let app = new App( MOBILE );
-    app.run()
-});
+        // Init the app and run it
+        let app = new App( MOBILE );
+        app.run()
+    })
+})()
 

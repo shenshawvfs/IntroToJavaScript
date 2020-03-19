@@ -1,11 +1,7 @@
 /**
- * App Singleton
- *
- * @copyright: (C) 2014-2017 Kibble Games Inc in cooperation with Vancouver Film School.  All Rights Reserved.
- * @author:    Scott Henshaw {@link mailto:shenshaw@vfs.com}
- * @version:   2.1.0
- *
- * @summary:   Framework Singleton Class to contain a web app
+ * @copyright: (C) 2020 Vancouver Film School.  All Rights Reserved.
+ * @author:    Your Name {@link mailto:ddXXname@vfs.com}
+ * @version:   1.0
  */
 'use strict';
 

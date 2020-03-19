@@ -40,13 +40,6 @@ javaScriptCourse.setLocation("Home");
 javaScriptCourse.assignInstructor("Scott");
 
 
-let course = {
-    timeslot: AM,
-    name:"JavaScript",
-    place:"At Home",
-    instuctor: "The best ever",
-}
-
 function generateEmptySchedule() {
 
     let aSchedule = [];

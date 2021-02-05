@@ -1,0 +1,112 @@
+/*
+ * Copyright (C) 2011 Kibble Games Inc. All Rights Reserved.
+ * Reset
+ *
+ ******************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/*
+ * Load fonts
+ *
+ *****************************************/
+
+/*
+ * Set the Base styles for all elements
+ *
+ *********************************************/
+html, body {
+    line-height: 1;
+    background: none repeat scroll left top #000000;
+    color: #aaa;
+    font-family: 'Walter Turncoat', ComicFont, cursive, "Comic Sans MS", ComicSans, sans-serif;
+}
+body {
+    background-color:black;
+    color:white;
+    font-size: 24px;
+}
+
+footer {
+    width: 100vw;
+    bottom:0;
+    height: 75px;
+    color: #222;
+    background-color: solid #DDDDDD;
+}
+
+div {
+    font-family: 'Walter Turncoat', cursive, "Comic Sans MS", Comic Sans, sans-serif;
+
+    padding:5px;
+    margin:5px;
+	/* border:1px solid #000; */
+    /* outline:1px dashed red; */
+    position:relative;
+    float:left;
+    display:inline-block;
+}
+
+.vfs-red { color:#c5122f; }
+.hide { display:none; }
+
+.page-outline { border:1px; color:#000; }
+
+.clear { clear:both; }
+
+.left { float:left; }
+.right { float: right; }
+
+.gutter {
+    border: solid 8px #FFF;
+    padding:4px;
+    margin:8px;
+    background-color:solid black;
+}
+
+.caption {
+    background-color:white;
+    border-radius:24px;
+    padding:1.5em;
+    font-size:16px;
+    color:black;
+    border:solid 4px black;
+}
+
+.caption-third-person {
+    border:4px solid #222;
+    background-color: #EFB919;
+    background-image: -ms-linear-gradient(top left, #E6AC00 0%, #FFDC74 100%); /* IE10+ */
+    background-image: -moz-linear-gradient(top left, #E6AC00 0%, #FFDC74 100%);
+    background-image: -o-linear-gradient(top left, #E6AC00 0%, #FFDC74 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFBF00), color-stop(1, #FFDC74));
+    background-image: -webkit-linear-gradient(top left, #E6AC00 0%, #FFDC74 100%);
+    background-image: linear-gradient(top left, #E6AC00 0%, #FFDC74 100%);
+    color: #000;
+    border-radius:0;
+    padding:1em;
+    font-size:18px;
+}
+
+
+.small-panel { width:25%; }
+.large-panel { width:66%; }
+.full-panel { width:95% }
+
+.short-panel { height:10em; }
+.tall-panel { height:20em;}
